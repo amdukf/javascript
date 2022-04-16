@@ -19,6 +19,30 @@
 
 //------//
 
+// var user = prompt("Enter yout username")
+// var pass = prompt("Enter yout password")
+
+// if(user.length >= 3 && pass.length >= 8){
+//     alert("you are successfully login")
+// }else{
+//     alert("your data is no accessable")
+// }
+
+//------//
+
+// var number = Math.floor(Math.random()*100000)
+// var test = prompt("Are you a robot?" +" "+ number)
+
+// if(test == number){
+//     alert("wellcome")
+// }else{
+//     alert("please try again my friend !")
+// }
+
+//------//
+
+
+
 
 
 

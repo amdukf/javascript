@@ -23,6 +23,38 @@ ternary condition => condition ? rule1 : rule2 ;
 
 در switch case , اگر بعد شرط True ما break نزاریم ، شروط بعد شرط true را هم اجرا میکند. ( بهتر از بعد هر شرط یه break بزاریم)
 
+string.length => shows number of lenght
+
+string.charAt(number of index) = string[number of string]
+
+string.charCodeAt(number of index) = return ASCII code of that charecter
+
+string.concat(" the string we wanna to attach ")
+
+string.trim() => will delete all of the white space before and after the text
+
+string.toLowerCase  = lowercase the string || string.toUpperCase = uppercase the string
+
+string.search(" word or charecter ") => return the index of the word or charecter
+
+string.indexof(" word or charecter ") => same as string.search but have some little difference
+
+string.includes(" word or charecter ") => check that our sentence have this word charecter of not , return True of False
+
+string.sliceindex of start , index of end) => cut a part of a sentence or a word (if we dont give the index of end , it will go to the end of the sentence)  // string.substr and string.substring will do this but have some differences too
+
+Math.function
+
+Math.min(numbers) => return the minimum numbers 
+
+Math.trunc = Math.floor !=Math.ceil (math.trunc delete the float things in a number) 
+
+Math.round = رند کردن عدد اگه به بالا نزدیک باشد به بالا گرد میکند اگه به پایین نزدیک باشد به پایین گرد میکند
+
+Math.random() => print a random number between 0 and 1 , it we use (Math.random())*10 it will return a number between 0 and 10
+
+
+
 
 
 
