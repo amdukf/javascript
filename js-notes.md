@@ -53,8 +53,20 @@ Math.round = رند کردن عدد اگه به بالا نزدیک باشد ب�
 
 Math.random() => print a random number between 0 and 1 , it we use (Math.random())*10 it will return a number between 0 and 10
 
+در حلقه do while شرط ما حداقل یکبار اجرا میشود ولی while اگر شرط ما False باید اصلا اجرا نمیشود
 
 
+pop() removes the last element of an array.
+push() adds an element to the end of an array.
+shift() removes the first element.
+unshift() adds an element to the beginning of the array.
+
+به کمک forEachمیشودیه حلقه روی یه آرایه میزنیم و از آن ها استفاده میکنیم
+
+array.includes("name" or number) => return that this thing is in our array or not  (return true or false)
+array.includes("name" or number , index number) => it will check the include index after the index
+
+از لحاظ سرعت کار ، some بهتر از foreach است چون به محض رسیدن به true کار را تمام میکند ( تا زمانی جلو میرود که به true برسد و اگر چیزی نباشد تا آخر میرود)
 
 
 
