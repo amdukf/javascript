@@ -68,6 +68,103 @@ array.includes("name" or number , index number) => it will check the include ind
 
 از لحاظ سرعت کار ، some بهتر از foreach است چون به محض رسیدن به true کار را تمام میکند ( تا زمانی جلو میرود که به true برسد و اگر چیزی نباشد تا آخر میرود)
 
+every checked a condition on every item in a array.
+
+زمانی که every به false برسد متوقف میشود و اگر ما بخوایم متوقف نشود باید یه return true بزنیم
+
+we can add some items in our array with splice , with splice we can add items in the middle of the array or everywhere we wanna
+
+array.splice( 2 , 4 ) => از ایندکس 2 ، چهار تا آیتم را حذف میکند
+
+array.splice( 2 , 4 , 8) => از 2 ، به جای اون 4 تا آیتم یه 8 میزاره ، اگه ادامه بدیم ، جای تک تک مقادیر حذف شده اون مقدار رو میزاره
+(2 , 4 , 8 , 9 ,3)
+
+findindex => a way to find the index of a array
+
+متود map کلا همیشه یه آرایه برمیگرداند و تا زمانی که به آخرین آرایه برسد کار خود را میکند
+
+array.filter
+
+Array.isArray(arrayname) => will return a bool that our thing is array or not
+
+arrayname.indexof(item) => will return the index of that item (if its not in the array it return -1)
+
+arrayname.lastindexof(item) => starts from end
+
+arrayname.slice( index of start , index of end ) => will cut the selected array
+
+arrayname.join('\') => will concat all of the items of a array together
+
+arrayname.reverse()
+
+arrayname.split('') => میتونیم از چیزای موجود در یک استرینگ یک آرایه بسازیم
+
+object , array , function => Reference (اگر ۲ تا از این تایپ هارو مساوی هم بزاریم ، با تغییر یکی از متغیر ها، متغیر دیگری هم تغییر میکند )
+
+
+Number , Bigint , Boolean , Symbol , Null , Undefined , String => Primitives
+
+arrayname.find() => will find a object in a array (gives a function)
+
+eval('function') => یک دستوری در ' ' میگیرد و آن را حساب میکند
+
+هیچ وقت ورودی که از کاربر میگیریم را به eval ندهیم
+
+IIFE Functions => توابع خودخوان
+
+بهتر است برای ورودی های خودمان مقدار دیفالت مدنظر بگیریم
+
+user camel case => userLastName (کلمات اول نه ولی از کلمات بعدی بهتر است از حروف بزرگ برای کلمات استفاده کنیم)
+
+
+متغیرهایی که با let هم زده میشوند مثل var خاصیت update دارند ولی let نمیتواند دوباره تعریف شود و فقط یکبار یک متغیر به آن نسبت داده میشود بر خلاف var
+
+در let ، متغیری هم نامی که در یک scope باشد با یک متغیر global هم نام ، تفاوت دارد اما در var اینگونه نیست
+
+const = ثابت ( we cant changed the data of const )
+
+فقط تعریف متغیر Hoist میشود، مقدار متغیر Hoist نمیشود
+
+توابع عادی function ها هم از مفهوم Hoisting پیروی میکنن اما توابعی که در یک متغیر ذخیره میشوند از مفهوم Hoisting پیروی نمیکنن
+
+
+setInterval => for setting time for executing a function
+
+استرینگ خالی ، خود به خود یک falsy value به حساب می آید
+boolean('') => false
+boolean([]) => true ( truthy value )
+
+0 and '' are falsy value
+
+setTimeout => a way to execute a thin in js after a time
+
+// next stage // 
+
+getElementsByClassName() => will return a array
+
+getElementsById()
+
+getElementsByTagName()
+
+document.querySelector('.class or #id') => یک کلاس یا آیدی را میگیرد و اولین تگی که  این را داشته باشد برمیگرداند
+
+querySelectorAll() => تمامی المنت هایی که آن کلاس یا آیدی را داشته باشد برمیگرداند
+
+name.getAttribute('attribute name') => return the variable of attribute
+
+name.setAttribute('attribute name' , 'value')
+
+name.innerHTML => return the value of a tag ( name.textContent is do same as this)
+
+برای دسترسی داشتن به محتویات یک input یا form ها باید به جای innerHTML از value استفاده کنیم
+
+document.createElement() => will create a html tag
+
+
+
+
+
+
 
 
 
